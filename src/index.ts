@@ -1,5 +1,5 @@
-let parse = require('csv-parse/lib/sync');
-let fs = require('fs');
+import { parse } from 'csv-parse/sync';
+import * as fs from 'fs';
 
 class Choice {
   public name: string;
